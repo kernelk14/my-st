@@ -1,5 +1,5 @@
 # st version
-VERSION = 0.9
+VERSION = 0.9-kernelk14
 
 # Customize below to fit your system
 
@@ -34,3 +34,4 @@ STLDFLAGS = $(LIBS) $(LDFLAGS)
 
 # compiler and linker
 # CC = c99
+CC = tcc
